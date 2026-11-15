@@ -1,0 +1,2243 @@
+{
+ "counts": {
+  "char_bitmap": 1470,
+  "char_font": 58,
+  "char_morph": 883,
+  "char_shape": 4190,
+  "char_sprite": 3140,
+  "char_text": 1170,
+  "cxform_alpha_only": 20704,
+  "cxform_color": 3577,
+  "files": 440,
+  "files_with_addFrameScript": 8,
+  "fill_bitmap": 9029,
+  "fill_focal": 1,
+  "fill_linear": 2012,
+  "fill_radial": 611,
+  "fill_solid": 3545,
+  "filter_blur": 734,
+  "filter_colormatrix": 193,
+  "filter_dropshadow": 2106,
+  "filter_glow": 42255,
+  "gradient_interp_0": 2611,
+  "gradient_interp_1": 13,
+  "gradient_spread_0": 2575,
+  "gradient_spread_1": 36,
+  "gradient_spread_2": 13,
+  "line_styles": 1866,
+  "place_mask": 183,
+  "place_ratio": 7017,
+  "rate_1": 2,
+  "rate_12": 136,
+  "rate_120": 10,
+  "rate_20": 6,
+  "rate_24": 48,
+  "rate_25": 36,
+  "rate_26": 2,
+  "rate_30": 200,
+  "sprite_multiframe": 811
+ },
+ "errors": [],
+ "files": {
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Dollars.swf": {
+   "symbols": 110,
+   "chars": 260,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/magazine_cover.swf": {
+   "symbols": 2,
+   "chars": 20,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/newspaper.swf": {
+   "symbols": 2,
+   "chars": 22,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/plain.swf": {
+   "symbols": 7,
+   "chars": 24,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/GUI/collectables.swf": {
+   "symbols": 218,
+   "chars": 857,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/GUI/contracts.swf": {
+   "symbols": 24,
+   "chars": 156,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/GUI/Dailybonus.swf": {
+   "symbols": 15,
+   "chars": 107,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/GUI/expansions.swf": {
+   "symbols": 10,
+   "chars": 59,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/GUI/houses_info.swf": {
+   "symbols": 138,
+   "chars": 1105,
+   "frame_scripts": true
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/GUI/investment.swf": {
+   "symbols": 13,
+   "chars": 150,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/GUI/Missions.swf": {
+   "symbols": 26,
+   "chars": 249,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/GUI/Storage.swf": {
+   "symbols": 3,
+   "chars": 49,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/hud/hud.swf": {
+   "symbols": 225,
+   "chars": 1190,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/club_001.swf": {
+   "symbols": 5,
+   "chars": 17,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerces_eco_resort.swf": {
+   "symbols": 6,
+   "chars": 29,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_aquapark.swf": {
+   "symbols": 4,
+   "chars": 28,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_aquarium.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_bank.swf": {
+   "symbols": 6,
+   "chars": 24,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_baseball.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_beer_bavarian.swf": {
+   "symbols": 7,
+   "chars": 54,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_bollywood.swf": {
+   "symbols": 7,
+   "chars": 29,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_boutique.swf": {
+   "symbols": 4,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_bowling.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_burger.swf": {
+   "symbols": 6,
+   "chars": 24,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_caipirinha.swf": {
+   "symbols": 6,
+   "chars": 24,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_cantontower.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_cars_shop.swf": {
+   "symbols": 6,
+   "chars": 22,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_casino.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_chapel.swf": {
+   "symbols": 5,
+   "chars": 17,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_cheese.swf": {
+   "symbols": 6,
+   "chars": 25,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_chocolateshop.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_cirque.swf": {
+   "symbols": 6,
+   "chars": 29,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_cntower.swf": {
+   "symbols": 3,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_coffee.swf": {
+   "symbols": 6,
+   "chars": 23,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_computershoppe.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_costume.swf": {
+   "symbols": 6,
+   "chars": 28,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_cottoncandy.swf": {
+   "symbols": 6,
+   "chars": 28,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_cruisecasino.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_ecoresort2.swf": {
+   "symbols": 3,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_elf_toy_shop.swf": {
+   "symbols": 7,
+   "chars": 65,
+   "frame_scripts": true
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_fairy_castle.swf": {
+   "symbols": 6,
+   "chars": 28,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_fish.swf": {
+   "symbols": 4,
+   "chars": 14,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_flower_shop.swf": {
+   "symbols": 6,
+   "chars": 24,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_football.swf": {
+   "symbols": 3,
+   "chars": 16,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/Commerce_giftshop.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_goldengoose.swf": {
+   "symbols": 4,
+   "chars": 20,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_goldmine.swf": {
+   "symbols": 4,
+   "chars": 22,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_guggenheim.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_honey.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_horror_shop.swf": {
+   "symbols": 6,
+   "chars": 28,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_horse.swf": {
+   "symbols": 4,
+   "chars": 28,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_hospital.swf": {
+   "symbols": 6,
+   "chars": 21,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_hotdog.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_hotel.swf": {
+   "symbols": 3,
+   "chars": 26,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_irish_pub.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_jewellery_shop.swf": {
+   "symbols": 6,
+   "chars": 24,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_juice.swf": {
+   "symbols": 3,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_kodak.swf": {
+   "symbols": 4,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_luxuryspa.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_luxury_mall.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_mma_stadium.swf": {
+   "symbols": 4,
+   "chars": 18,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_movie_theater.swf": {
+   "symbols": 8,
+   "chars": 36,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_museum.swf": {
+   "symbols": 6,
+   "chars": 28,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_night_club.swf": {
+   "symbols": 7,
+   "chars": 29,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_opera.swf": {
+   "symbols": 3,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_pet_shop.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_pizza.swf": {
+   "symbols": 6,
+   "chars": 24,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_richrock.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_robot.swf": {
+   "symbols": 7,
+   "chars": 33,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_saloon.swf": {
+   "symbols": 4,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_seattlespace.swf": {
+   "symbols": 3,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_shopping_mall.swf": {
+   "symbols": 6,
+   "chars": 21,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_sledge.swf": {
+   "symbols": 4,
+   "chars": 29,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_spaceneedle.swf": {
+   "symbols": 4,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_spacestation.swf": {
+   "symbols": 3,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_sportsbar.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_sportsshop.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_stadium.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_sushi.swf": {
+   "symbols": 6,
+   "chars": 21,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_sydneyopera.swf": {
+   "symbols": 4,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_tacos.swf": {
+   "symbols": 6,
+   "chars": 20,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_tapas.swf": {
+   "symbols": 6,
+   "chars": 28,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_tea.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_tequila.swf": {
+   "symbols": 6,
+   "chars": 29,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_thanksgiving.swf": {
+   "symbols": 6,
+   "chars": 29,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_tv.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_ufo.swf": {
+   "symbols": 4,
+   "chars": 22,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_vegas.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_vegasquarter.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_vip.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_xmaschapel.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_yatch.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/Commerce_zlounge.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/commerce_zoo.swf": {
+   "symbols": 3,
+   "chars": 48,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_channel_001.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_channel_002.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_channel_004.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_channel_005.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_channel_006.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_channel_007.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_christmas_01.swf": {
+   "symbols": 2,
+   "chars": 54,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_christmas_02.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_christmas_03.swf": {
+   "symbols": 2,
+   "chars": 6,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_christmas_04.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_christmas_05.swf": {
+   "symbols": 2,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_christmas_06.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_christmas_07.swf": {
+   "symbols": 2,
+   "chars": 14,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_christmas_08.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_christmas_09.swf": {
+   "symbols": 3,
+   "chars": 17,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_christmas_10.swf": {
+   "symbols": 3,
+   "chars": 6,
+   "frame_scripts": true
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_font_02.swf": {
+   "symbols": 4,
+   "chars": 32,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_font_03.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_font_04.swf": {
+   "symbols": 2,
+   "chars": 17,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_font_05.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_font_06.swf": {
+   "symbols": 2,
+   "chars": 37,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_font_07.swf": {
+   "symbols": 2,
+   "chars": 17,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_font_08.swf": {
+   "symbols": 2,
+   "chars": 35,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_font_09.swf": {
+   "symbols": 2,
+   "chars": 21,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_halloween_01.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_halloween_02.swf": {
+   "symbols": 3,
+   "chars": 26,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_halloween_03.swf": {
+   "symbols": 3,
+   "chars": 17,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_pond_01.swf": {
+   "symbols": 2,
+   "chars": 36,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_pond_02.swf": {
+   "symbols": 3,
+   "chars": 50,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_pond_03.swf": {
+   "symbols": 2,
+   "chars": 36,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_ruins_01.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_ruins_02.swf": {
+   "symbols": 3,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_set_01.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_set_03.swf": {
+   "symbols": 2,
+   "chars": 6,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_set_04.swf": {
+   "symbols": 2,
+   "chars": 6,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_set_05.swf": {
+   "symbols": 2,
+   "chars": 6,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_set_06.swf": {
+   "symbols": 2,
+   "chars": 6,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_set_07.swf": {
+   "symbols": 2,
+   "chars": 6,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_set_09.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_set_10.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_shop_01.swf": {
+   "symbols": 3,
+   "chars": 23,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_01.swf": {
+   "symbols": 2,
+   "chars": 16,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_02.swf": {
+   "symbols": 3,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_03.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_04.swf": {
+   "symbols": 3,
+   "chars": 26,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_07.swf": {
+   "symbols": 4,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_08.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_09.swf": {
+   "symbols": 2,
+   "chars": 16,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_10.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_11.swf": {
+   "symbols": 6,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_12.swf": {
+   "symbols": 2,
+   "chars": 26,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_13.swf": {
+   "symbols": 3,
+   "chars": 14,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_14.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_15.swf": {
+   "symbols": 3,
+   "chars": 41,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_16.swf": {
+   "symbols": 3,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_17.swf": {
+   "symbols": 3,
+   "chars": 25,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_18.swf": {
+   "symbols": 3,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_19.swf": {
+   "symbols": 4,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_20.swf": {
+   "symbols": 3,
+   "chars": 16,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_21.swf": {
+   "symbols": 3,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_22.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_23.swf": {
+   "symbols": 3,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_24.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_25.swf": {
+   "symbols": 3,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_26.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_27.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_28.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_29.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_30.swf": {
+   "symbols": 2,
+   "chars": 8,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_31.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_32.swf": {
+   "symbols": 2,
+   "chars": 32,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_34.swf": {
+   "symbols": 4,
+   "chars": 15,
+   "frame_scripts": true
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_35.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_39.swf": {
+   "symbols": 2,
+   "chars": 16,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_40.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_44.swf": {
+   "symbols": 2,
+   "chars": 17,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_45.swf": {
+   "symbols": 2,
+   "chars": 18,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_46.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_48.swf": {
+   "symbols": 2,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_49.swf": {
+   "symbols": 3,
+   "chars": 22,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_50.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_51.swf": {
+   "symbols": 2,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_56.swf": {
+   "symbols": 2,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_58.swf": {
+   "symbols": 2,
+   "chars": 30,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_59.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_60.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_61.swf": {
+   "symbols": 1,
+   "chars": 3,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_62.swf": {
+   "symbols": 1,
+   "chars": 3,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_63.swf": {
+   "symbols": 1,
+   "chars": 3,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_64.swf": {
+   "symbols": 1,
+   "chars": 3,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_65.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_66.swf": {
+   "symbols": 1,
+   "chars": 3,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_67.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_68.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_69.swf": {
+   "symbols": 3,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_70.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_71.swf": {
+   "symbols": 1,
+   "chars": 3,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_72.swf": {
+   "symbols": 3,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_73.swf": {
+   "symbols": 1,
+   "chars": 3,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_74.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_76.swf": {
+   "symbols": 1,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_77.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_80.swf": {
+   "symbols": 1,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_81.swf": {
+   "symbols": 1,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_84.swf": {
+   "symbols": 1,
+   "chars": 6,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_85.swf": {
+   "symbols": 1,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_86.swf": {
+   "symbols": 1,
+   "chars": 28,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_88.swf": {
+   "symbols": 1,
+   "chars": 3,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_special_89.swf": {
+   "symbols": 1,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_01.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_03.swf": {
+   "symbols": 3,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_04_bavarian.swf": {
+   "symbols": 3,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_05.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_06.swf": {
+   "symbols": 3,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_07.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_08.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_09.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_10.swf": {
+   "symbols": 2,
+   "chars": 6,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_11.swf": {
+   "symbols": 3,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_12.swf": {
+   "symbols": 3,
+   "chars": 6,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_13.swf": {
+   "symbols": 3,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_14.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_15.swf": {
+   "symbols": 3,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_16.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_18.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_19.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_23.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_statue_24.swf": {
+   "symbols": 1,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_01.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_02.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_03.swf": {
+   "symbols": 4,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_04.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_05.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_06.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_07.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_08.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_09.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_10.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_11.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_12.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_13.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_14.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_15.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_17.swf": {
+   "symbols": 3,
+   "chars": 8,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_17_01.swf": {
+   "symbols": 3,
+   "chars": 8,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_18.swf": {
+   "symbols": 2,
+   "chars": 27,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_19.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_20.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_21.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_22.swf": {
+   "symbols": 3,
+   "chars": 6,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_23.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_24.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_25.swf": {
+   "symbols": 3,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_30.swf": {
+   "symbols": 2,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/decorations_tree_31.swf": {
+   "symbols": 2,
+   "chars": 4,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_001_001.swf": {
+   "symbols": 6,
+   "chars": 19,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_001_002.swf": {
+   "symbols": 6,
+   "chars": 19,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_002_001.swf": {
+   "symbols": 6,
+   "chars": 21,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_002_002.swf": {
+   "symbols": 6,
+   "chars": 21,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_003_001.swf": {
+   "symbols": 6,
+   "chars": 19,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_003_002.swf": {
+   "symbols": 6,
+   "chars": 19,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_004_001.swf": {
+   "symbols": 6,
+   "chars": 21,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_004_002.swf": {
+   "symbols": 6,
+   "chars": 21,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_005_001.swf": {
+   "symbols": 6,
+   "chars": 21,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_005_002.swf": {
+   "symbols": 6,
+   "chars": 20,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_006_001.swf": {
+   "symbols": 6,
+   "chars": 21,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_006_002.swf": {
+   "symbols": 6,
+   "chars": 21,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_007_001.swf": {
+   "symbols": 6,
+   "chars": 20,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_007_002.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_008_001.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_008_002.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_008_003.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_008_004.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_008_005.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_009_001.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_010_001.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_011_001.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_011_002.swf": {
+   "symbols": 4,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_011_003.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_012_001.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_012_002.swf": {
+   "symbols": 4,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_012_003.swf": {
+   "symbols": 5,
+   "chars": 63,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_013_001.swf": {
+   "symbols": 5,
+   "chars": 29,
+   "frame_scripts": true
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_014_001.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_014_002.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_015_001.swf": {
+   "symbols": 4,
+   "chars": 16,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_015_001_bavarian.swf": {
+   "symbols": 5,
+   "chars": 58,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_015_002.swf": {
+   "symbols": 4,
+   "chars": 16,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_015_002_bavarian.swf": {
+   "symbols": 5,
+   "chars": 58,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_016_001.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_016_002.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_017_001.swf": {
+   "symbols": 5,
+   "chars": 32,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_017_002.swf": {
+   "symbols": 5,
+   "chars": 27,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_018_001.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_019_001.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_019_002.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_019_003.swf": {
+   "symbols": 4,
+   "chars": 23,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_019_004.swf": {
+   "symbols": 4,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_020_001.swf": {
+   "symbols": 4,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_020_002.swf": {
+   "symbols": 6,
+   "chars": 21,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_021_001.swf": {
+   "symbols": 4,
+   "chars": 16,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_022_001.swf": {
+   "symbols": 4,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_023_001.swf": {
+   "symbols": 3,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_023_002.swf": {
+   "symbols": 4,
+   "chars": 21,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_023_003.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_023_004.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_023_005.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_024_001.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_024_002.swf": {
+   "symbols": 4,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_025_001.swf": {
+   "symbols": 4,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_025_002.swf": {
+   "symbols": 4,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_026_001.swf": {
+   "symbols": 4,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_026_002.swf": {
+   "symbols": 4,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_027_001.swf": {
+   "symbols": 4,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_027_002.swf": {
+   "symbols": 2,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_028_001.swf": {
+   "symbols": 5,
+   "chars": 17,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_028_002.swf": {
+   "symbols": 4,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_029_001.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_029_002.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_030_001.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_030_002.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_031_001.swf": {
+   "symbols": 5,
+   "chars": 20,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_031_002.swf": {
+   "symbols": 5,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_032_001.swf": {
+   "symbols": 4,
+   "chars": 42,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_032_002.swf": {
+   "symbols": 4,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_033_001.swf": {
+   "symbols": 4,
+   "chars": 14,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_033_002.swf": {
+   "symbols": 4,
+   "chars": 20,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_034_001.swf": {
+   "symbols": 4,
+   "chars": 26,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_034_002.swf": {
+   "symbols": 3,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_034_003.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_034_004.swf": {
+   "symbols": 3,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_034_005.swf": {
+   "symbols": 3,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_034_006.swf": {
+   "symbols": 4,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_034_007.swf": {
+   "symbols": 4,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_034_008.swf": {
+   "symbols": 4,
+   "chars": 45,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_034_009.swf": {
+   "symbols": 3,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_034_010.swf": {
+   "symbols": 3,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_034_011.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_034_012.swf": {
+   "symbols": 3,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_035_001.swf": {
+   "symbols": 4,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_035_002.swf": {
+   "symbols": 4,
+   "chars": 24,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_036_001.swf": {
+   "symbols": 3,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_037_001_Cindy.swf": {
+   "symbols": 4,
+   "chars": 16,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_037_001_Ronald.swf": {
+   "symbols": 4,
+   "chars": 16,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_038_001.swf": {
+   "symbols": 3,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_038_002.swf": {
+   "symbols": 3,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_039_001.swf": {
+   "symbols": 3,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_039_002.swf": {
+   "symbols": 3,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_040_001.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_041_001.swf": {
+   "symbols": 3,
+   "chars": 8,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_041_002.swf": {
+   "symbols": 4,
+   "chars": 24,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_042_001.swf": {
+   "symbols": 6,
+   "chars": 20,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_043_001.swf": {
+   "symbols": 4,
+   "chars": 18,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_043_002.swf": {
+   "symbols": 4,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_044_001.swf": {
+   "symbols": 2,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_044_003.swf": {
+   "symbols": 4,
+   "chars": 17,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_045_001.swf": {
+   "symbols": 3,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_045_002.swf": {
+   "symbols": 3,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_045_003.swf": {
+   "symbols": 3,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_046_001.swf": {
+   "symbols": 4,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_046_002.swf": {
+   "symbols": 3,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_047_001.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_047_002.swf": {
+   "symbols": 4,
+   "chars": 16,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_048_001.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_048_002.swf": {
+   "symbols": 3,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_049_003.swf": {
+   "symbols": 2,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_050_001.swf": {
+   "symbols": 2,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_050_002.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_051_001.swf": {
+   "symbols": 3,
+   "chars": 23,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_052_001.swf": {
+   "symbols": 2,
+   "chars": 8,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_052_002.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_055_001.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_055_002.swf": {
+   "symbols": 3,
+   "chars": 25,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_056_001.swf": {
+   "symbols": 2,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_057_001.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_059_001.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_059_002.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_060_001.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_063_001.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_064_001.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_064_002.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_064_003.swf": {
+   "symbols": 2,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/houses_064_004.swf": {
+   "symbols": 2,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_atomium.swf": {
+   "symbols": 3,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_buda.swf": {
+   "symbols": 4,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_chichen_itza.swf": {
+   "symbols": 3,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_clock_tower.swf": {
+   "symbols": 3,
+   "chars": 29,
+   "frame_scripts": true
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_coliseum.swf": {
+   "symbols": 3,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_corcovado.swf": {
+   "symbols": 4,
+   "chars": 12,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_discovery.swf": {
+   "symbols": 3,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_dollars_bin.swf": {
+   "symbols": 3,
+   "chars": 57,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_dracula_castle.swf": {
+   "symbols": 5,
+   "chars": 33,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_eiffel_tower.swf": {
+   "symbols": 3,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_new_year.swf": {
+   "symbols": 8,
+   "chars": 48,
+   "frame_scripts": true
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_new_year_twelve.swf": {
+   "symbols": 7,
+   "chars": 44,
+   "frame_scripts": true
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_npc_Cindy.swf": {
+   "symbols": 3,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_npc_Ronald.swf": {
+   "symbols": 3,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_pirateship.swf": {
+   "symbols": 4,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_pyramid.swf": {
+   "symbols": 3,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_sagrada_familia.swf": {
+   "symbols": 3,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_statue_of_liberty.swf": {
+   "symbols": 3,
+   "chars": 33,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_statue_of_money.swf": {
+   "symbols": 3,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_stbasil.swf": {
+   "symbols": 4,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_stonehenge.swf": {
+   "symbols": 4,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_submarine.swf": {
+   "symbols": 4,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/wonder_tajmahal.swf": {
+   "symbols": 4,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/bases_building/BuildingState.swf": {
+   "symbols": 44,
+   "chars": 46,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/cars/car_01.swf": {
+   "symbols": 2,
+   "chars": 50,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/cars/car_02.swf": {
+   "symbols": 2,
+   "chars": 50,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/cars/car_03.swf": {
+   "symbols": 2,
+   "chars": 50,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/cars/car_04.swf": {
+   "symbols": 2,
+   "chars": 50,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/cars/car_05.swf": {
+   "symbols": 2,
+   "chars": 50,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/cars/car_police.swf": {
+   "symbols": 2,
+   "chars": 50,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/cars/car_roadster.swf": {
+   "symbols": 2,
+   "chars": 50,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/cars/car_taxi.swf": {
+   "symbols": 2,
+   "chars": 50,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/cars/scooter.swf": {
+   "symbols": 2,
+   "chars": 50,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/CommerceTypes/common.swf": {
+   "symbols": 1,
+   "chars": 9,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/CommerceTypes/contract_event.swf": {
+   "symbols": 4,
+   "chars": 26,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/CommerceTypes/daily_bonus.swf": {
+   "symbols": 2,
+   "chars": 16,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/CommerceTypes/gift_event.swf": {
+   "symbols": 6,
+   "chars": 25,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/CommerceTypes/super_upgrades.swf": {
+   "symbols": 1,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/CommerceTypes/super_upgrade_star.swf": {
+   "symbols": 2,
+   "chars": 16,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/CommerceTypes/upgrades.swf": {
+   "symbols": 1,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/CommerceTypes/upgrade_star.swf": {
+   "symbols": 2,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/HQDecorations/Dc.swf": {
+   "symbols": 3,
+   "chars": 10,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/HQDecorations/HeadQuarter_01.swf": {
+   "symbols": 6,
+   "chars": 18,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/HQDecorations/HeadQuarter_02.swf": {
+   "symbols": 5,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/HQDecorations/HeadQuarter_03.swf": {
+   "symbols": 5,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/HQDecorations/HeadQuarter_04.swf": {
+   "symbols": 5,
+   "chars": 11,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/items/planes/plane_show.swf": {
+   "symbols": 1,
+   "chars": 68,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/missions/beat_2.swf": {
+   "symbols": 1,
+   "chars": 3,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/missions/bonus_houses_001.swf": {
+   "symbols": 1,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/missions/bonus_houses_001_001.swf": {
+   "symbols": 1,
+   "chars": 5,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/missions/build_Decorations_tree.swf": {
+   "symbols": 1,
+   "chars": 3,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/missions/checkInfluence_commerce_pizza.swf": {
+   "symbols": 2,
+   "chars": 7,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/missions/missions_layout.swf": {
+   "symbols": 6,
+   "chars": 15,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/terrain/fence.swf": {
+   "symbols": 32,
+   "chars": 67,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/Assets/terrain/terrain.swf": {
+   "symbols": 1,
+   "chars": 3,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/popups/buttons.swf": {
+   "symbols": 12,
+   "chars": 53,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/popups/popup_standard.swf": {
+   "symbols": 5,
+   "chars": 13,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/popups/confirm/popup_confirm.swf": {
+   "symbols": 3,
+   "chars": 27,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/popups/confirm_buy/popup_confirm_buy.swf": {
+   "symbols": 2,
+   "chars": 19,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/popups/crew_mechanics/crew_mechanics.swf": {
+   "symbols": 3,
+   "chars": 14,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/popups/exchange/exchange_fbc.swf": {
+   "symbols": 2,
+   "chars": 33,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/popups/instant_build/popup_instant_build.swf": {
+   "symbols": 3,
+   "chars": 32,
+   "frame_scripts": false
+  },
+  "dchoc1-a.akamaihd.net/0.501/mcity/Datas/popups/shop/shop.swf": {
+   "symbols": 9,
+   "chars": 83,
+   "frame_scripts": false
+  }
+ }
+}

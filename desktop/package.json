@@ -1,0 +1,8 @@
+{
+  "name": "millionaire-city-html5",
+  "productName": "Millionaire City HTML5",
+  "version": "0.9.0",
+  "description": "HTML5 reconstruction of Millionaire City, desktop shell",
+  "main": "main.js",
+  "private": true
+}

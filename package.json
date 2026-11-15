@@ -1,0 +1,12 @@
+{
+  "name": "millionaire-city-html5",
+  "version": "0.9.0",
+  "private": true,
+  "description": "HTML5 reconstruction of Millionaire City (Phaser 3 + TypeScript)",
+  "type": "module",
+  "scripts": {
+    "build": "node vendor/typescript/bin/tsc -p tsconfig.json",
+    "test": "node vendor/typescript/bin/tsc -p tsconfig.json && node --test tests/",
+    "serve": "node tools/serve.mjs"
+  }
+}

@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+vendor/_dl/
+
+# Build & Distribution Artifacts
+build/
+dist/
+
+# Bundled local binaries
+tools/runtime/
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Commercial fonts (excluded from redistribution due to proprietary licensing)
+public/assets/fonts/*.ttf
+
+# Test evidence, logs and profiling dumps
+docs/evidence/
+*.log
+*.tmp
+*.bak
+
+# Research database copies and personal save snapshots
+research/save_copy/
+research/lab_ref/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Operating System and Editor Artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
