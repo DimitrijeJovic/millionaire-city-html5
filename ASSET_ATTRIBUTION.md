@@ -10,7 +10,7 @@ This document details the provenance, ownership, and copyright status of all mat
 
 - All original game concepts, visual designs, building artwork, character illustrations, audio effects, musical compositions, game balance rules, and text strings are the intellectual property of Digital Chocolate (or its respective successors/rights holders).
 - The developers of this HTML5 reimplementation make **no claim of copyright, trademark, or ownership** over any original artwork, audio, narrative, branding, or game designs created by Digital Chocolate.
-- This project is an independent clean-room technical reconstruction created for historical preservation, study, and educational purposes.
+- This project is an educational fan-made restoration and reimplementation, created for study and preservation. It is not a clean-room implementation: original game files were studied and converted (see §2B and §4).
 
 ---
 
@@ -18,8 +18,8 @@ This document details the provenance, ownership, and copyright status of all mat
 
 To maintain legal and technical clarity, the contents of this repository are categorized into three distinct groups:
 
-### A. Independently Written Source Code
-The software implementation is original work authored independently in TypeScript and Python:
+### A. Source Code Written for This Project
+The following code was written for this project (with AI assistance) and contains no code from the original game:
 - **Game Engine & Rules Logic (`src/`):** Pure-logic implementations of map autotiling, coordinate transformations, economic countdowns, rent cycles, decoration radius bonuses, contractor operations, traffic simulation, mission state machines, and local profile management.
 - **Rendering & Scene Graph (`src/scenes/`):** Custom Phaser 3 scenes implementing camera management, layered sprite rendering, and viewport culling.
 - **User Interface (`src/ui/`):** Custom DOM-based implementations of HUD elements, shop catalogs, contract dialogs, and popups.
@@ -33,6 +33,16 @@ The data files in `public/assets/` were reconstructed from original game resourc
 - **Sound Effects & Audio (`public/assets/sounds/`):** Audio clips extracted from original game files.
 - **Rules, Locale & Data Fixtures (`public/assets/rules/`, `public/assets/locale/`, `public/data/`):** Game balance tables, item costs, XP progressions, and localized string definitions translated from original XML/ActionScript definitions into JSON.
 - **Provenance Manifest (`public/assets/provenance.json`):** A machine-readable manifest recording the exact source file, source SHA-256 checksum, conversion method, and symbol identifier for every reconstructed asset.
+
+**Where the original files came from** (checked in November 2026 by comparing the SHA-256 values in the manifest with the candidate sources):
+
+| Original source files | Count | Origin |
+|---|---:|---|
+| Identical to files in the community project [wman810/millionaire-city-rebuilt](https://github.com/wman810/millionaire-city-rebuilt) (also in its downloadable 0.1.0 build) | 431 | That project; its licence states that the original game assets it contains are **not** covered by its MIT licence |
+| Present only in the downloadable 0.1.0 build of that project | 4 | Same project; three of them are original shop icons reused for items that had no icon of their own |
+| **Origin not recorded** | **151** | 108 item SWFs, 32 shop icons, 9 mission images, 1 loading image, and 1 rules file. They came from a larger local copy of the original game's file tree that I used during development; where that copy came from was not recorded, and it is no longer available |
+
+The full per-file list is kept with the project's audit records.
 
 ### C. Third-Party Libraries and Tools
 The project incorporates or links to the following third-party components under their respective licenses:
@@ -57,5 +67,5 @@ The original game interface utilized commercial proprietary typefaces:
 
 - **Redistribution Rights:** Redistribution rights for the reconstructed original game graphics, audio, and game balance rules have **not been independently established**.
 - **No Claim of Legal Exemption:** This project does not claim or assert that non-commercial distribution, software preservation, transformative recreation, or fair use doctrines automatically grant legal permission for public redistribution of proprietary game assets.
-- **Independent Clean-Room Status:** This project does not incorporate decompiled ActionScript bytecode, closed-source Flash player DLLs, or code from the upstream `wman810/millionaire-city-rebuilt` wrapper project.
+- **Use of the original client:** The original client's ActionScript bytecode was disassembled read-only to learn the game's rules and formulas (`docs/engine_facts.md`). No bytecode, Flash player binary, or Flash client file is included or executed; the game logic in `src/` is a separate TypeScript implementation.
 - **Rights Holder Contact:** If you are a copyright or trademark holder for *Millionaire City* or Digital Chocolate assets and have questions, concerns, or requests regarding the inclusion of reconstructed assets in this educational preservation repository, please open an issue in this repository.

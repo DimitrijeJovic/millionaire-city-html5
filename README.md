@@ -1,12 +1,19 @@
 # Millionaire City HTML5
 
-An independent clean-room HTML5 reimplementation of the classic city-building game *Millionaire City* (originally developed by Digital Chocolate).
+An educational fan-made restoration and reimplementation of *Millionaire City*, a discontinued Flash city-building game originally developed by Digital Chocolate. I explored it through reverse engineering, debugging, bug fixing, and testing, and then migrated it to **TypeScript** and **Phaser 3**. Original game assets and intellectual property belong to their respective rights holders.
 
-Built from the ground up using modern web technologies (**Phaser 3.90.0** + **TypeScript 5.9.3**), this project aims to preserve and reconstruct the core game mechanics, rendering fidelity, and simulation logic without relying on legacy Flash runtimes or PepperFlash plugins.
+### How this project came about
+
+1. I found a community project on GitHub ([wman810/millionaire-city-rebuilt](https://github.com/wman810/millionaire-city-rebuilt)) that lets the original Flash client run again, downloaded it, and played the game.
+2. To understand how the game worked, I studied its behaviour and resources: I wrote tools that read the original SWF files and analysed the client's ActionScript bytecode read-only (`tools/swfkit`, `docs/engine_facts.md`).
+3. I investigated and fixed bugs and tested changes. Because optimising the Flash version further was limited, I moved to a new engine.
+4. This repository is that reimplementation: the game rules, rendering, user interface, save system, and desktop shell are new TypeScript code on Phaser 3 (AI-assisted), verified by automated tests.
+
+**What is mine and what is not:** the TypeScript code (`src/`), tests (`tests/`), conversion tools (`tools/`), desktop shell (`desktop/`), and documentation are my work. The original game, its code, graphics, sounds, text, and balance data are not; the converted copies in `public/assets/` come from original game files. See [ASSET_ATTRIBUTION.md](ASSET_ATTRIBUTION.md), including what is and is not known about where those files came from.
 
 > [!NOTE]
 > **Development Status: v0.9.0 (Phase 9 Milestone)**  
-> This release represents an active development milestone, not a 100% feature-complete game. Core economy cycles, construction, contract signing, shop purchases, map geometry, NPC visits, offline missions, and traffic simulation are fully playable.
+> This release represents an active development milestone, not a 100% feature-complete game. Core economy cycles, construction, contract signing, shop purchases, map geometry, NPC visits, offline missions, and traffic simulation are playable.
 
 ---
 
@@ -28,7 +35,7 @@ Built from the ground up using modern web technologies (**Phaser 3.90.0** + **Ty
 
 ## Overview & Architecture
 
-Unlike projects that wrap legacy SWF binaries in Flash emulators or PepperFlash containers, this project is an independent, native HTML5 reconstruction:
+Unlike the community rebuild it started from, which runs the original Flash client, this project is a native HTML5 reimplementation:
 - **Clean separation of concerns:** The simulation logic (`src/game/`) is strictly decoupled from the rendering pipeline (`src/scenes/`) and user interface (`src/ui/`).
 - **Deterministic fixed-step simulation:** Game economy and timers tick on a deterministic fixed 40 ms step (matching the original game logic cadence), while rendering runs at the monitor's native refresh rate.
 - **Pure-logic testability:** Because the simulation layer has no DOM or WebGL dependencies, the entire game state, economics, expansions, traffic, and mission progression are verified via Node.js unit tests.
@@ -152,6 +159,12 @@ The test runner compiles TypeScript and executes all **131 unit tests** covering
 - NPC visit limits and reward allocations
 
 All 131 tests pass with zero failures.
+
+### Performance Checks
+
+- **Simulation hot paths:** the per-second economy step recomputed every footprint for every shop (O(shops·N²)); it now builds one snapshot per step, and decoration influence is cached. `tests/performance.test.mjs` checks that the cached results match the uncached ones.
+- **Browser measurements:** 180-second runs in Chrome at 1920 × 1080 averaged about 180 FPS (the display refresh rate) with the simulation at 25 steps per second. Occasional frames above 50 ms remain when panels open or close and when panning at the lowest zoom level.
+- Details, including memory measurements and open items, are in `docs/report.md` (Serbian).
 
 ---
 
