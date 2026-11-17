@@ -14,8 +14,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Commercial fonts (excluded from redistribution due to proprietary licensing)
-public/assets/fonts/*.ttf
+# Game assets: generated locally from the user's own original game files and never committed
+# (see CLAUDE_ASSET_POLICY.md). Only the two README files in public/assets/ are tracked.
+public/assets/*
+!public/assets/README.md
+!public/assets/fonts/
+public/assets/fonts/*
+!public/assets/fonts/README.md
 
 # Test evidence, logs and profiling dumps
 docs/evidence/

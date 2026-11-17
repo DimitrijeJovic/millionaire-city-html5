@@ -27,6 +27,13 @@
 <div id="rain-front"></div>
 <div id="profile-host"></div>
 <script src="vendor/phaser.min.js"></script>
-<script type="module" src="js/main.js"></script>
+<script type="module">
+// The game assets are generated locally (README, "Preparing the Game Assets"); without them, say so instead of failing silently.
+const assetsReady = await fetch("assets/manifest.json").then((r) => r.ok, () => false);
+if (assetsReady) await import("./js/main.js");
+else document.getElementById("loading-screen").textContent =
+  "Game assets not found in public/assets/. They are not included in the repository; generate them from your own " +
+  "original game files with tools/build_assets.py (see README, \"Preparing the Game Assets\").";
+</script>
 </body>
 </html>

@@ -9,11 +9,14 @@ An educational fan-made restoration and reimplementation of *Millionaire City*, 
 3. I investigated and fixed bugs and tested changes. Because optimising the Flash version further was limited, I moved to a new engine.
 4. This repository is that reimplementation: the game rules, rendering, user interface, save system, and desktop shell are new TypeScript code on Phaser 3 (AI-assisted), verified by automated tests.
 
-**What is mine and what is not:** the TypeScript code (`src/`), tests (`tests/`), conversion tools (`tools/`), desktop shell (`desktop/`), and documentation are my work. The original game, its code, graphics, sounds, text, and balance data are not; the converted copies in `public/assets/` come from original game files. See [ASSET_ATTRIBUTION.md](ASSET_ATTRIBUTION.md), including what is and is not known about where those files came from.
+**What is mine and what is not:** the TypeScript code (`src/`), tests (`tests/`), conversion tools (`tools/`), desktop shell (`desktop/`), and documentation are my work. The original game, its code, graphics, sounds, text, and balance data are not; the game assets are **not included in this repository**; each user generates them locally in `public/assets/` from original game files they supply themselves. See [ASSET_ATTRIBUTION.md](ASSET_ATTRIBUTION.md), including what is and is not known about where those files came from.
 
 > [!NOTE]
 > **Development Status: v0.9.0 (Phase 9 Milestone)**  
 > This release represents an active development milestone, not a 100% feature-complete game. Core economy cycles, construction, contract signing, shop purchases, map geometry, NPC visits, offline missions, and traffic simulation are playable.
+
+> [!IMPORTANT]
+> **Game assets are not included.** This repository contains the technical reconstruction (code, tools, tests, documentation), not the original game's graphics, sounds, text, or rules data. A fresh clone does not run until you generate the assets from your own legally obtained original game files; see [Preparing the Game Assets](#preparing-the-game-assets). This is an educational fan-made project and is not affiliated with or endorsed by the original rights holders.
 
 ---
 
@@ -24,6 +27,7 @@ An educational fan-made restoration and reimplementation of *Millionaire City*, 
 - [Technology Stack](#technology-stack)
 - [Project Structure](#project-structure)
 - [Prerequisites & Installation](#prerequisites--installation)
+- [Preparing the Game Assets](#preparing-the-game-assets)
 - [Running the Game](#running-the-game)
 - [Automated Testing & Verification](#automated-testing--verification)
 - [Building the Desktop Application](#building-the-desktop-application)
@@ -82,7 +86,7 @@ Unlike the community rebuild it started from, which runs the original Flash clie
 ├── desktop/         # Electron desktop wrapper (main.js, package.json, installer config)
 ├── docs/            # Technical analysis, engine facts, completion criteria, and roadmaps
 ├── public/          # Public web assets (HTML, CSS, JSON rules, atlases, sounds)
-│   ├── assets/      # Game data: rules, icons, atlases, locale, items, sounds, fonts
+│   ├── assets/      # Generated locally from original game files; not in the repository
 │   ├── css/         # UI styling (game.css)
 │   ├── data/        # Offline NPC cities and default city definitions
 │   └── vendor/      # Client dependencies (phaser.min.js)
@@ -104,7 +108,9 @@ Unlike the community rebuild it started from, which runs the original Flash clie
 ### Prerequisites
 - **Node.js:** v18.0.0 or later (v20+ LTS recommended)
 - **npm:** bundled with Node.js
-- *(Optional)* **Python 3.10+** with Pillow (`pip install Pillow fontTools`) if rebuilding assets from original files.
+- **Python 3.10+** with Pillow and fontTools (`pip install Pillow fontTools`), required to prepare the game assets.
+- **Microsoft Edge or Google Chrome**, used headless by the asset pipeline to render vector graphics. The standard Windows install paths are detected; otherwise set `SWFKIT_BROWSER` to the browser executable.
+- **The original game files:** the `Datas` directory of an original *Millionaire City* client that you have obtained legally. They are not provided by this project.
 
 ### Setup
 Clone the repository:
@@ -117,7 +123,24 @@ Compile TypeScript source files:
 ```bash
 npm run build
 ```
-This compiles `src/**/*.ts` into `public/js/` using the vendored TypeScript compiler.
+This compiles `src/**/*.ts` into `public/js/` using the vendored TypeScript compiler. It does not need the game assets.
+
+---
+
+## Preparing the Game Assets
+
+The runtime assets in `public/assets/` are generated from the original game files and are never committed (`.gitignore` excludes everything in `public/assets/` except two README files).
+
+```bash
+python -I tools/build_assets.py --source "<path to the original Datas directory>" --all-items
+```
+
+- `--source` can be replaced by the `MCITY_DATAS_SOURCE` environment variable. The script refuses a source directory inside the project, and it reads the original files without changing them.
+- Among other things it reads `Dollars.swf`, `Locale/EN.txt`, `rules/`, `Assets/`, `sounds/`, `feed/`, `pages/` and `button/` from that directory, so it needs a complete `Datas` tree.
+- It writes item and UI atlases, background tiles, sounds, rules JSON, `locale/en.json`, `manifest.json`, and `provenance.json` (source path, SHA-256, and conversion method for every output). `--all-items` converts every building in the rules; without it, only the buildings used in `public/data/city.json` are converted.
+- Original fonts are optional; see [public/assets/fonts/README.md](public/assets/fonts/README.md).
+
+Without these files, `npm test` stops with a message that the assets are missing, and the game page shows the same message instead of starting.
 
 ---
 
@@ -142,7 +165,7 @@ http://127.0.0.1:8417/
 
 ## Automated Testing & Verification
 
-Run the full automated test suite:
+Run the full automated test suite (requires the generated assets, because most tests read the original rules data from `public/assets/rules/`):
 ```bash
 npm test
 ```
@@ -195,10 +218,7 @@ Runtime assets (`public/assets/`) are generated from original Flash game archive
 - `rasterize.py`: Renders vector graphics at 2× resolution using headless Chromium/Edge
 - `atlas.py`: Packs rendered sprites into texture atlases and generates metadata
 
-To regenerate assets:
-```bash
-python -I tools/build_assets.py --source "<path_to_original_Datas>" --all-items
-```
+To generate the assets, see [Preparing the Game Assets](#preparing-the-game-assets).
 Every exported asset records its source file, SHA-256 hash, and conversion method in `public/assets/provenance.json`.
 
 ---
@@ -216,11 +236,12 @@ As of version 0.9.0, the following systems are planned or in progress:
 
 ## Provenance & Third-Party Notices
 
-- **Original Game IP:** *Millionaire City* was created by Digital Chocolate. Original graphics, sounds, and game balance rules remain the intellectual property of Digital Chocolate or its respective successors.
+- **Original Game IP:** *Millionaire City* was created by Digital Chocolate. Original graphics, sounds, and game balance rules remain the intellectual property of Digital Chocolate or its respective successors. This project is not affiliated with or endorsed by them.
+- **Game assets in this repository:** the current version contains no generated game assets. Earlier commits, including tag `v0.9.0`, still contain the `public/assets/` files that were published before this change.
 - **Asset Attribution & Provenance:** See [ASSET_ATTRIBUTION.md](ASSET_ATTRIBUTION.md) for full attribution, asset separation, provenance records, and copyright statements.
 - **Third-Party Libraries:**
   - **Phaser 3.90.0:** MIT License (Photon Storm Ltd). License copy at [public/vendor/PHASER_LICENSE.md](public/vendor/PHASER_LICENSE.md).
   - **TypeScript 5.9.3:** Apache License 2.0 (Microsoft Corporation). License copy at [vendor/typescript/LICENSE.txt](vendor/typescript/LICENSE.txt).
   - **Electron:** MIT License (OpenJS Foundation).
-- **Fonts:** Commercial fonts (Challenge Bold LET, Helvetica Rounded LT Std, Arial) are excluded from the repository. Fallback styles are defined in `public/assets/fonts/fonts.css`. See [public/assets/fonts/README.md](public/assets/fonts/README.md).
+- **Fonts:** Commercial fonts (Challenge Bold LET, Helvetica Rounded LT Std, Arial) are excluded from the repository. Fallback styles are defined in `public/assets/fonts/fonts.css`, which the asset pipeline generates. See [public/assets/fonts/README.md](public/assets/fonts/README.md).
 - **Historical Documentation:** Supplemental technical research documents (`docs/report.md`, `docs/manual_checklist.md`, `docs/engine_facts.md`) are preserved in Serbian as historical development logs.

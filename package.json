@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "node vendor/typescript/bin/tsc -p tsconfig.json",
-    "test": "node vendor/typescript/bin/tsc -p tsconfig.json && node --test tests/",
+    "test": "node tools/check_assets.mjs && node vendor/typescript/bin/tsc -p tsconfig.json && node --test tests/",
     "serve": "node tools/serve.mjs"
   }
 }
