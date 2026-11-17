@@ -18,6 +18,10 @@ The owner chose Option C:
 - `.gitignore` excludes everything in `public/assets/` except `public/assets/README.md` and `public/assets/fonts/README.md`.
 - Without generated assets, `npm test` stops with a message from `tools/check_assets.mjs`, and `public/index.html` shows a message instead of starting the game.
 
+## Decision: city data (November 2026)
+
+The same policy applies to `public/data/`. All six former files were derived from original game material: `npc_advisor.json` and `npc_boss.json` from the original universe XML files, `city.json` and `city_labcopy.json` from a save database of the original game (`mcity.sqlite`), and `city_test.json` and `city_empty.json` from those. They were removed from tracking; the owner's local copies were kept. Users create them with `tools/convert_save.py` and `tools/convert_universe_xml.py` (see `public/data/README.md`). `.gitignore` excludes everything in `public/data/` except its README. `tools/check_assets.mjs` and `public/index.html` report missing city files.
+
 ## Historical context
 
 An earlier audit (November 2026) found the following about the original source files behind `public/assets/`:
@@ -27,22 +31,17 @@ An earlier audit (November 2026) found the following about the original source f
 
 The owner believes some or all of the 151 files may have been created, converted or modified by the owner and AI during the engine migration. **Option C applies regardless of that unresolved question.** Do not reintroduce any of these files, or anything generated from them, into the public repository on the basis of that belief.
 
-`public/data/` (city and NPC city fixtures) is still tracked. `ASSET_ATTRIBUTION.md` lists those files as derived from original definitions. Their status has not been decided separately; ask the owner before changing or publishing them in a new way.
+`research/reference_shots/original_city_default.png` (a screenshot of the original game) is still tracked. It was outside the scope of the November 2026 cleanup; ask the owner before changing or publishing it in a new way.
 
 ## Git history warning
 
-The earlier public history, including commit `dfa877c` and tag `v0.9.0`, still contains the assets. Option C does **not** authorise any of the following:
+In November 2026, with the owner's explicit approval, the published history (branches `main`, `develop`, `test` and tag `v0.9.0`) was rewritten with `git filter-repo` to remove `public/assets/` (except its two README files) and `public/data/` (except its README) from every commit. A full backup of the previous history is kept outside the repository (see the portfolio closeout report). Copies made before the rewrite (clones, downloads, caches) may still contain the old files.
 
-- rewriting Git history or published commits;
-- force-pushing;
-- deleting, moving or modifying tags;
-- removing assets from historical commits.
-
-Each of these needs separate, explicit approval from the owner.
+Any further history rewrite, force-push, or tag change needs new, explicit approval from the owner. Never push the pre-rewrite history (old local branches, the backup, or old clones) to the public repository.
 
 ## Rules for every future session
 
-1. Preserve the asset separation. Never add files from `public/assets/` (other than the two README files) to Git, and never weaken the `.gitignore` rules for that folder, without the owner's explicit approval.
+1. Preserve the asset separation. Never add files from `public/assets/` (other than the two README files) or `public/data/` (other than its README) to Git, and never weaken the `.gitignore` rules for those folders, without the owner's explicit approval.
 2. Never assume the owner owns original game assets, and never state or imply that the project has permission to redistribute them.
 3. Keep locally supplied original files and generated assets out of Git tracking. Before every commit, run `git status` and confirm nothing under `public/assets/` is staged except the two README files.
 4. Do not modify, move or delete the owner's local asset files or original game files. The asset pipeline reads original files read-only and refuses a source directory inside the project; keep it that way.

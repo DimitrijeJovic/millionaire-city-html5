@@ -22,6 +22,10 @@ public/assets/*
 public/assets/fonts/*
 !public/assets/fonts/README.md
 
+# City data converted from original game files and saves; supplied locally, never committed.
+public/data/*
+!public/data/README.md
+
 # Test evidence, logs and profiling dumps
 docs/evidence/
 *.log

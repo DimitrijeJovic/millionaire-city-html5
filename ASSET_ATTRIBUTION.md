@@ -29,7 +29,7 @@ The following code was written for this project (with AI assistance) and contain
 
 ### B. Reconstructed Original Game Assets
 
-> **Not included in the current version of this repository.** The files in `public/assets/` are generated locally by each user from their own original game files (`tools/build_assets.py`, see the README). They were removed from the repository's current version in November 2026. Earlier commits, including tag `v0.9.0`, still contain the files described in this section.
+> **Not included in this repository.** The files in `public/assets/` and `public/data/` are generated locally by each user from their own original game files and save data (`tools/build_assets.py`, `tools/convert_save.py`, `tools/convert_universe_xml.py`; see the README). They were removed from the repository in November 2026. In November 2026 the repository history was rewritten so that no published commit or tag, including `v0.9.0`, contains these files.
 
 The data files in `public/assets/` are reconstructed from original game resource archives:
 - **Sprite Atlases & Item Graphics (`public/assets/items/`, `public/assets/atlas/`, `public/assets/cars/`, `public/assets/background/`, `public/assets/terrain/`, `public/assets/icons/`):** Visual assets converted from legacy SWF vector symbols and bitmaps into high-resolution 2× PNG atlases via `tools/swfkit`.

@@ -16,7 +16,7 @@ An educational fan-made restoration and reimplementation of *Millionaire City*, 
 > This release represents an active development milestone, not a 100% feature-complete game. Core economy cycles, construction, contract signing, shop purchases, map geometry, NPC visits, offline missions, and traffic simulation are playable.
 
 > [!IMPORTANT]
-> **Game assets are not included.** This repository contains the technical reconstruction (code, tools, tests, documentation), not the original game's graphics, sounds, text, or rules data. A fresh clone does not run until you generate the assets from your own legally obtained original game files; see [Preparing the Game Assets](#preparing-the-game-assets). This is an educational fan-made project and is not affiliated with or endorsed by the original rights holders.
+> **Game assets and city data are not included.** This repository contains the technical reconstruction (code, tools, tests, documentation), not the original game's graphics, sounds, text, rules data, or city data. A fresh clone does not run until you generate these files from your own legally obtained original game files; see [Preparing the Game Assets](#preparing-the-game-assets) and [Preparing the City Data](#preparing-the-city-data). This is an educational fan-made project and is not affiliated with or endorsed by the original rights holders.
 
 ---
 
@@ -28,6 +28,7 @@ An educational fan-made restoration and reimplementation of *Millionaire City*, 
 - [Project Structure](#project-structure)
 - [Prerequisites & Installation](#prerequisites--installation)
 - [Preparing the Game Assets](#preparing-the-game-assets)
+- [Preparing the City Data](#preparing-the-city-data)
 - [Running the Game](#running-the-game)
 - [Automated Testing & Verification](#automated-testing--verification)
 - [Building the Desktop Application](#building-the-desktop-application)
@@ -88,7 +89,7 @@ Unlike the community rebuild it started from, which runs the original Flash clie
 ├── public/          # Public web assets (HTML, CSS, JSON rules, atlases, sounds)
 │   ├── assets/      # Generated locally from original game files; not in the repository
 │   ├── css/         # UI styling (game.css)
-│   ├── data/        # Offline NPC cities and default city definitions
+│   ├── data/        # City data converted locally from original files; not in the repository
 │   └── vendor/      # Client dependencies (phaser.min.js)
 ├── src/             # TypeScript source code
 │   ├── audio/       # Audio event dispatch and sound effect management
@@ -144,6 +145,24 @@ Without these files, `npm test` stops with a message that the assets are missing
 
 ---
 
+## Preparing the City Data
+
+The city files in `public/data/` are converted from original game data and are never committed (`.gitignore` excludes everything in `public/data/` except its README).
+
+```bash
+python -I tools/convert_save.py "<copy of mcity.sqlite>" public/data/city.json
+python -I tools/convert_universe_xml.py "<Datas>/userData/universeAdvisorCity.xml" public/data/npc_advisor.json
+python -I tools/convert_universe_xml.py "<Datas>/userData/universeAdvisorCity1_AbuDabhi.xml" public/data/npc_boss.json
+```
+
+- `city.json` is the player's city, converted from a **copy** of the server database `mcity.sqlite` (the tool opens it read-only and refuses a live installation database).
+- `npc_advisor.json` and `npc_boss.json` are the offline NPC cities, converted from the original universe files.
+- Optional extra cities go in `public/data/city_<name>.json` and open with `?city=<name>`.
+
+See [public/data/README.md](public/data/README.md). Without `city.json` and the two NPC files, `npm test` stops with a message, and the game page names the missing file instead of starting.
+
+---
+
 ## Running the Game
 
 Start the local development server:
@@ -156,7 +175,7 @@ http://127.0.0.1:8417/
 ```
 
 ### URL Parameters for Testing & Development
-- `?city=test`: loads isolated test city data (`public/data/city_test.json`) without affecting your default save.
+- `?city=test`: loads an optional local test city (`public/data/city_test.json`, if you created one) without affecting your default save.
 - `&fresh=1`: resets the test city save state on reload.
 - `&view=1090,690`: sets initial camera viewport coordinates.
 - `?visit=npc_advisor` or `?visit=npc_boss`: opens direct visit mode for NPC cities.
@@ -165,7 +184,7 @@ http://127.0.0.1:8417/
 
 ## Automated Testing & Verification
 
-Run the full automated test suite (requires the generated assets, because most tests read the original rules data from `public/assets/rules/`):
+Run the full automated test suite (requires the generated assets and city data, because most tests read the original rules data from `public/assets/rules/` and the cities from `public/data/`):
 ```bash
 npm test
 ```
@@ -237,7 +256,7 @@ As of version 0.9.0, the following systems are planned or in progress:
 ## Provenance & Third-Party Notices
 
 - **Original Game IP:** *Millionaire City* was created by Digital Chocolate. Original graphics, sounds, and game balance rules remain the intellectual property of Digital Chocolate or its respective successors. This project is not affiliated with or endorsed by them.
-- **Game assets in this repository:** the current version contains no generated game assets. Earlier commits, including tag `v0.9.0`, still contain the `public/assets/` files that were published before this change.
+- **Game assets and city data in this repository:** the repository contains no generated game assets (`public/assets/`) and no converted city data (`public/data/`). In November 2026 the repository history was rewritten so that no published commit or tag, including `v0.9.0`, contains these files.
 - **Asset Attribution & Provenance:** See [ASSET_ATTRIBUTION.md](ASSET_ATTRIBUTION.md) for full attribution, asset separation, provenance records, and copyright statements.
 - **Third-Party Libraries:**
   - **Phaser 3.90.0:** MIT License (Photon Storm Ltd). License copy at [public/vendor/PHASER_LICENSE.md](public/vendor/PHASER_LICENSE.md).

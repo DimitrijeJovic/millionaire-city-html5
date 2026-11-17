@@ -28,12 +28,21 @@
 <div id="profile-host"></div>
 <script src="vendor/phaser.min.js"></script>
 <script type="module">
-// The game assets are generated locally (README, "Preparing the Game Assets"); without them, say so instead of failing silently.
-const assetsReady = await fetch("assets/manifest.json").then((r) => r.ok, () => false);
-if (assetsReady) await import("./js/main.js");
+// Game assets and city data are generated locally (README); without them, say so instead of failing silently.
+// The city file is chosen exactly as in CityScene.preload.
+const query = new URLSearchParams(location.search);
+const { cityDataFile } = await import("./js/game/city.js");
+const { isNpcCityFile } = await import("./js/game/visitMode.js");
+const visit = query.get("visit");
+const cityFile = cityDataFile(isNpcCityFile(visit) ? visit : query.get("city"));
+const exists = (url) => fetch(url).then((r) => r.ok, () => false);
+const missing = [];
+if (!(await exists("assets/manifest.json"))) missing.push("game assets in public/assets/ (tools/build_assets.py)");
+if (!(await exists(cityFile))) missing.push("city data public/" + cityFile + " (tools/convert_save.py or tools/convert_universe_xml.py)");
+if (!missing.length) await import("./js/main.js");
 else document.getElementById("loading-screen").textContent =
-  "Game assets not found in public/assets/. They are not included in the repository; generate them from your own " +
-  "original game files with tools/build_assets.py (see README, \"Preparing the Game Assets\").";
+  "Not found: " + missing.join("; ") + ". These files are not included in the repository; generate them from your own " +
+  "original game files (see README, \"Preparing the Game Assets\" and \"Preparing the City Data\").";
 </script>
 </body>
 </html>
