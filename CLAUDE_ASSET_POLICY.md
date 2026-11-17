@@ -31,7 +31,7 @@ An earlier audit (November 2026) found the following about the original source f
 
 The owner believes some or all of the 151 files may have been created, converted or modified by the owner and AI during the engine migration. **Option C applies regardless of that unresolved question.** Do not reintroduce any of these files, or anything generated from them, into the public repository on the basis of that belief.
 
-`research/reference_shots/original_city_default.png` (a screenshot of the original game) is still tracked. It was outside the scope of the November 2026 cleanup; ask the owner before changing or publishing it in a new way.
+`research/reference_shots/original_city_default.png` (a screenshot of the original game) was removed from the repository and from its published history in November 2026 (second `git filter-repo` rewrite). The owner keeps a local copy; `.gitignore` excludes `research/reference_shots/`. Do not add screenshots of the original game to the repository.
 
 ## Git history warning
 

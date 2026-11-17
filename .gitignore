@@ -26,6 +26,9 @@ public/assets/fonts/*
 public/data/*
 !public/data/README.md
 
+# Screenshot of the original game, kept locally for reference only.
+research/reference_shots/
+
 # Test evidence, logs and profiling dumps
 docs/evidence/
 *.log
